@@ -46,7 +46,7 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[i],`http://www.twitch.tv/ᴴᴵᴳᴴˁᴷʸ`);
+        client.user.setGame(setGame[i],`http://www.twitch.tv/ArabCity`);
     }, ms);
     console.log(` ????????? |> Name: ${client.user.username}`);
  console.log(` ????????? |> Servers: ${client.guilds.size}`);
@@ -306,7 +306,7 @@ client.on('message', function(msg) {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ ! ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | 3bker')
+			      .setFooter('By | Spark')
     })
 }
 });
